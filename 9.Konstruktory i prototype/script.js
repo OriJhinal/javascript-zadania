@@ -16,11 +16,11 @@ class Person{
             this.age = age;
     }
 }
-const personA = new Person('Marcin', 'Ziarko', 21, 'Poland', 'Kraków', 'polish');
-const personB = new Person('Janusz', 'Korwin', 69, 'Poland', 'Warsaw', 'polish');
-const personC = new Person('Anna', 'Wesołowska', 23, 'Poland', 'Szczebrzeszyn', 'polish');
-const personD = new Person('Maria', 'Wesołowska', 54, 'Poland', 'Gniezno', 'polish');
-const personE = new Person('Ryszard', 'Peja', 50, 'Poland', 'Sopot', 'polish');
+const personA = new Person('Szymon, 'Pomierny', 21, 'Poland', 'Kraków', 'polish');
+const personB = new Person('Maciej', 'Kowal', 19, 'Poland', 'Warsaw', 'polish');
+const personC = new Person('Anna', 'Nowak', 22, 'Poland', 'Szczebrzeszyn', 'polish');
+const personD = new Person('Maria', 'Ma', 44, 'Poland', 'Gniezno', 'polish');
+const personE = new Person('Mikołaj', 'Nwm', 60, 'Poland', 'Sopot', 'polish');
 
 personB.newAge(52);
 personE.newAge(20);
